@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <title>FoodHub Copenhagen</title>
     <link rel="stylesheet" type="text/css" href="../css/login.css">
+
 </head>
 <body>
+<div class="container">
+    <div class="main">
+        <h2>Login på FoodHub</h2>
+        <form id="form_id" method="post" name="myform">
+            <label>Brugernavn:</label>
+            <input type="text" name="username" id="username"/>
+            <label>Adgangskode:</label>
+            <input type="password" name="password" id="password"/>
+            <input type="button" value="Login" id="submit" onclick="validate()"/>
+        </form>
 
-
-<script src="../javascript/login.js"</script>
+    </div>
+</div>
+<script src="../javascript/login.js"></script>
 </body>
 </html>
