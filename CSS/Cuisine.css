@@ -1,3 +1,13 @@
+body {
+    background-image: url("https://www.caterwings.co.uk/blog/wp-content/uploads/2017/10/gettyimages-595731814.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+}
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -22,4 +32,35 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
+}
+
+.content {
+    background: white;
+    width: 600px;
+    margin: auto;
+    margin-top: 200px;
+    padding: 20px;
+    text-align: center;
+}
+
+.btn-group .button {
+    background-color: #4CAF50; /* Green */
+    border: 1px solid green;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+.btn-group .button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+    background-color: #3e8e41;
 }
